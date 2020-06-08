@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "ts-loader": "^7.0.5",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.4.0",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "supertest": "^4.0.2",
+    "typescript": "^3.9.5",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules --watch",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
